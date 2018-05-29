@@ -10,48 +10,59 @@ I'd say that's the easy part about working with data.
 This talk focus on the rest of the pipeline, sharing challenges and mistakes I encountered.
 The talk contains some of the ideas I wish to have read or hear myself when starting to work in data science.
 
-## Warning
+## Outline
+
+### Warning
 
 - The talk is biased from my experience
 - Tips shared here will be difficult to implement
 - The data landscape is evolving really fast and some advices shared here might be dated soon
 
-## The Power of Data
+### Why
 
-- Why do we need to take care of data?
+- Data talks are mostly algorithm focused
+- Working with data is not easy hard
+- I made a lot of mistakes I want to share
+- Data can change everything! How?
+- Kaggle main issue
+
+### The Power of Data
+
 - With data, we can improve applying the scientific method. And... science works!
 - Data makes choices clearer distinguishing the signal from the noise
 - Has applications in every field, from web A/B Testing to ML in Biology
 
-### Data Pipelines
+### Data Applications
 
-- Example for churn
-- Other examples
+- Steps for predicting churn
+- Requirmeent before doing an analysis
+- A/B Testing
 
-## My Mistakes
+### My Mistakes
 
 - Getting the data was easy
 - Working with data was simple
 - Starting a project from the ground up could fix everything
 - Data was enought
 
-## Learnings
-- Everything is an event
+### Learnings
+
 - Reproducibility
     - Required for the scientific method
     - Required to keep you sane
+- Everything is an event
+- KISS
 - Learn many tools
 - Combine the tools!
-- KISS
 - Have a baseline metric for everything you want to affect
-- Tidy the data
-- Iterate quickly to learn unknowns unknowns
+- Keep your data tidy
+- Explore and Iterate quickly to learn unknowns unknowns
+    - e.g normalizing the variables. If you don't you'll have a ranking!
 - Let it crash. Some entropy is required. Forest and fire
 - Data starts and end with people
     - Focus is scarce. Lines of code are cheap. Optimize for people.
-- Normalize the variables. If you don't you'll have a ranking!
 
-## The Future
+### The Future
 
 - Streaming
 - Containers
