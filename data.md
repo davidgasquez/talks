@@ -21,10 +21,10 @@ The talk contains some of the ideas I wish to have read or hear myself when star
 ### Why
 
 - Data talks are mostly algorithm focused
-- Working with data is not easy hard
+- Working with data is not easy
 - I made a lot of mistakes I want to share
 - Data can change everything! How?
-- Kaggle main issue
+- The issue with Kaggle is that it provides the CSV. You don't have that in real life
 
 ### The Power of Data
 
@@ -34,13 +34,13 @@ The talk contains some of the ideas I wish to have read or hear myself when star
 
 ### Data Applications
 
-- Steps for predicting churn
-- Requirmeent before doing an analysis
+- Answering questions
+- Predicting stuff; spam, churn, prices
 - A/B Testing
 
 ### My Mistakes
 
-- Getting the data was easy
+- Getting the data was easy (Kaggle CSV)
 - Working with data was simple
 - Starting a project from the ground up could fix everything
 - Data was enought
@@ -50,15 +50,15 @@ The talk contains some of the ideas I wish to have read or hear myself when star
 - Reproducibility
     - Required for the scientific method
     - Required to keep you sane
-- Everything is an event
-- KISS
+- Everything is an event and events dont change!
 - Learn many tools
-- Combine the tools!
+- Combine the tools! (Unix pipe)
+- KISS
 - Have a baseline metric for everything you want to affect
 - Keep your data tidy
-- Explore and Iterate quickly to learn unknowns unknowns
+- Explore and iterate quickly to learn unknowns unknowns
     - e.g normalizing the variables. If you don't you'll have a ranking!
-- Let it crash. Some entropy is required. Forest and fire
+- Let it crash. Some entropy is required. (forest controlled fires)
 - Data starts and end with people
     - Focus is scarce. Lines of code are cheap. Optimize for people.
 
@@ -70,6 +70,7 @@ The talk contains some of the ideas I wish to have read or hear myself when star
 - NN
 
 ## Quotes
+
 - Most of the world will make decisions by either guessing or using their gut. They will be either lucky or wrong
 - Theories come and go, but fundamental data always remain the same
 - Data is the aggregated voice of our customers - Riley Newman, Airbnb
