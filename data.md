@@ -48,8 +48,8 @@ The talk contains some of the ideas I wish to have read or hear myself when star
 ### Learnings
 
 - Reproducibility
-    - Required for the scientific method
-    - Required to keep you sane
+  - Required for the scientific method
+  - Required to keep you sane
 - Everything is an event and events dont change!
 - Learn many tools
 - Combine the tools! (Unix pipe)
@@ -57,10 +57,10 @@ The talk contains some of the ideas I wish to have read or hear myself when star
 - Have a baseline metric for everything you want to affect
 - Keep your data tidy
 - Explore and iterate quickly to learn unknowns unknowns
-    - e.g normalizing the variables. If you don't you'll have a ranking!
+  - e.g normalizing the variables. If you don't you'll have a ranking!
 - Let it crash. Some entropy is required. (forest controlled fires)
 - Data starts and end with people
-    - Focus is scarce. Lines of code are cheap. Optimize for people.
+  - Focus is scarce. Lines of code are cheap. Optimize for people.
 
 ### The Future
 
