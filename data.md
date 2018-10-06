@@ -1,6 +1,6 @@
-# Data Science in Realily
+# Practical Data Science
 
-A talk to share my failures, learnings, and hopes for the data space.
+A talk to share some realities, failures and learnings in the data science space.
 
 ## Motivation
 
@@ -15,14 +15,14 @@ The talk contains some of the ideas I wish to have read or hear myself when star
 ### Warning
 
 - The talk is biased from my experience
-- Tips shared here will be difficult to implement
-- The data landscape is evolving really fast and some advices shared here might be dated soon
+- Theory != Practice. Tips shared here will be difficult to implement!
+- The data landscape is evolving really fast. Some advices shared here might work when is already deprecated
 
 ### Why
 
 - Data talks are mostly algorithm focused
 - Working with data is not easy
-- I made a lot of mistakes I want to share
+- I made some mistakes I want to share
 - Data can change everything! How?
 - The issue with Kaggle is that it provides the CSV. You don't have that in real life
 
@@ -35,8 +35,8 @@ The talk contains some of the ideas I wish to have read or hear myself when star
 ### Data Applications
 
 - Answering questions
-- Predicting stuff; spam, churn, prices
 - A/B Testing
+- Predicting stuff; spam, churn, prices
 
 ### My Mistakes
 
@@ -74,3 +74,4 @@ The talk contains some of the ideas I wish to have read or hear myself when star
 - Most of the world will make decisions by either guessing or using their gut. They will be either lucky or wrong
 - Theories come and go, but fundamental data always remain the same
 - Data is the aggregated voice of our customers - Riley Newman, Airbnb
+- To make great products, do machine learning like the great engineer you are, not like the great machine learning expert you aren’t
