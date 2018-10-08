@@ -1,9 +1,15 @@
-Working Remotely
+# Working Remotely
 
 - Challenges
 - Benefits
-- Resources
-  - https://www.remoteonly.org/
-- Asynchronous communications
+- Communication
+  - Asynchronous life
+  - Being right is usually not worth much if others don’t agree
 - Documentation
 - Standards
+- Tips
+  - Find a theme and define a vision
+  - Strive for simplicity
+- Resources
+  - https://www.remoteonly.org/
+  - https://open.nytimes.com/how-to-grow-as-an-engineer-working-remotely-3baff8211f3e
