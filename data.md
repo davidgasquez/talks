@@ -23,12 +23,16 @@ The talk contains some of the ideas I wish to have read or hear myself when star
 - Data talks are mostly algorithm focused
 - Working with data is not easy
 - I made some mistakes I want to share
-- Data can change everything! How?
-- The issue with Kaggle is that it provides the CSV. You don't have that in real life
+
+#### Kaggle Issue
+
+- Get the CSV (web, database, peer, ...)
+- Try to start using it
+    - (try once per slide) errors you might get: OOM, mixed types, empty fields, ...
 
 ### The Power of Data
 
-- With data, we can improve applying the scientific method. And... science works!
+- With data, we can improve applying an old agile methodology, the scientific method. And... science works!
 - Data makes choices clearer distinguishing the signal from the noise
 - Has applications in every field, from web A/B Testing to ML in Biology
 
