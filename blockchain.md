@@ -2,13 +2,13 @@
 
 ## Index
 
-1.  What is Blockchain?
-1.  Consensus
-1.  What is Money
-1.  Fat Protocols
-1.  Protocol Funding
-1.  Forks work like genetic mutations in the nature
-1.  The Future
+1. What is Blockchain?
+1. Consensus
+1. What is Money
+1. Fat Protocols
+1. Protocol Funding
+1. Forks work like genetic mutations in the nature
+1. The Future
     - Open Source projects will have a protocol and incentive the economy.
       - You could buy shares of Kubernetes, Tensorflow, Linux or contribute to gain tokens. This incentivices contributing and helping people
     - Other Applications
