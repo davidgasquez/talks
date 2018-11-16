@@ -65,6 +65,7 @@ The talk contains some of the ideas I wish to have read or hear myself when star
 - Keep your data tidy
 - Explore and iterate quickly to learn unknowns unknowns
   - e.g normalizing the variables. If you don't you'll have a ranking!
+  - You should aim to build evolutionary Data Pipelines
 - Let it crash. Some entropy is required. (forest controlled fires)
 - Monitorize. Know the different types of failures. Errors in code, the data or in the process
 - Data starts and end with people
