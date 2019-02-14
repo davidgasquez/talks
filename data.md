@@ -28,7 +28,7 @@ The talk contains some of the ideas I wish to have read or hear myself when star
 
 - Get the CSV (web, database, peer, ...)
 - Try to start using it
-    - (try once per slide) errors you might get: OOM, mixed types, empty fields, ...
+  - (try once per slide) errors you might get: OOM, mixed types, empty fields, ...
 
 ### The Power of Data
 
@@ -59,7 +59,8 @@ The talk contains some of the ideas I wish to have read or hear myself when star
   - Required to keep you sane
 - Everything is an event and events dont change!
 - Learn many tools
-- Combine the tools! (Unix pipe)
+- Combine the tools!
+  - Unix Slide
 - KISS
 - Have a baseline metric for everything you want to affect
 - Keep your data tidy
