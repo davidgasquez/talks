@@ -36,6 +36,7 @@ The talk contains some of the ideas I wish to have read or hear myself when star
   - It gives us knowledge!
 - Data makes choices clearer distinguishing the signal from the noise
 - Has applications in every field, from web A/B Testing to ML in Biology
+- In a SaaS company, the only way to tell how you're doing is looking at the data. In the phisical world you can see users buying or not coming to your store. Data is the main input for internet companies.
 
 ### Data Applications
 
