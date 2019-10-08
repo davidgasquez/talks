@@ -1,27 +1,25 @@
 # Practical Data Science
 
-A talk to share some realities, failures and learnings in the data science space.
+Failures and learnings from my time in the data world.
 
 ## Motivation
 
 People talk about their shiny new algorithm or how much a new set of parameters improved the accuracy of a complex Neural Network.
 I'd say that's the easy part about working with data.
-
-This talk focus on the rest of the pipeline, sharing challenges and mistakes I encountered.
-The talk contains some of the ideas I wish to have read or hear myself when starting to work in data science.
+This talk focus on the rest of the work needed to tune the parameters.
 
 ## Outline
 
 ### Warning
 
-- The talk is biased from my experience
-- Theory != Practice. Tips shared here will be difficult to implement!
-- The data landscape is evolving really fast. Some advices shared here might work when is already deprecated
+- The talk is biased from my experience.
+- Theory != Practice. Tips shared here won't be easy to implement!
+- The data landscape is evolving really fast.
 
 ### Why
 
 - Data talks are mostly algorithm focused
-- Working with data is not easy
+- Working with data is tricky
 - I made some mistakes I want to share
 
 #### Kaggle Issue
