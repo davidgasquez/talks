@@ -1,4 +1,28 @@
 #!/usr/bin/env bash
 
 # Set minimal prompt
-export PS1="\[\e[32m\]\$\[\e[m\] "
+export PS1="\n\[\e[32m\]\$\[\e[m\] "
+
+# Function to draw titles
+title () {
+    figlet -tk -f big "$1"
+}
+
+# Matrix effect
+matrix() {
+    echo -e "\e[1;40m" ; clear ; while :; do echo $LINES $COLUMNS $(( $RANDOM % $COLUMNS)) $(( $RANDOM % 72 )) ;sleep 0.05; done|gawk '{ letters="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%^&*()"; c=$4; letter=substr(letters,c,1);a[$3]=0;for (x in a) {o=a[x];a[x]=a[x]+1; printf "\033[%s;%sH\033[2;32m%s",o,x,letter; printf "\033[%s;%sH\033[1;37m%s\033[0;0H",a[x],x,letter;if (a[x] >= $1) { a[x]=0; } }}'
+}
+
+# Proper Python
+alias python=python3
+
+# CLI tools
+alias wiki="python /talk/clis/wiki.py"
+
+# Funny things
+alias pp="curl parrot.live"
+alias weather="curl -s wttr.in"
+
+# Create titles for the talk
+alias 1="clear && title \"UNIX  &  PYTHON\""
+alias 2="clear && title \"UNIX  Philosophy\" && echo &&  wiki get \"unix philosophy\" -s \"Origin\" | tail -n +6"
