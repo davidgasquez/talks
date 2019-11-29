@@ -25,4 +25,11 @@ alias weather="curl -s wttr.in"
 
 # Create titles for the talk
 alias 1="clear && title \"UNIX  &  PYTHON\""
-alias 2="clear && title \"UNIX  Philosophy\" && echo &&  wiki get \"unix philosophy\" -s \"Origin\" | tail -n +6"
+alias 2="clear && title \"UNIX  Philosophy\""
+alias 3="clear && title \"UNIX  Philosophy\" && echo &&  wiki get \"unix philosophy\" -s \"Origin\" | tail -n +6"
+
+alias pushshift="curl --compressed -s 'http://stream.pushshift.io/' | grep data | cut -c 7- | jq . -c"
+alias askreddit="curl --compressed -s 'http://stream.pushshift.io/?type=comments' | grep data | cut -c 7- | jq '. | select(.subreddit==\"AskReddit\") | .body' -cr"
+alias time="curl --compressed -s 'http://stream.pushshift.io/?type=comments' | grep data | cut -c 7- | jq '. | select(.subreddit==\"AskReddit\") | .body' -cr | python clis/nlp.py |"
+
+alias thanks="toilet -f future -k -t -F gay Thanks!"
