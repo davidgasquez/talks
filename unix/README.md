@@ -9,10 +9,7 @@ This is an interactive talk about UNIX and Python.
 - Lots of people are scared of terminals but they can be really cool!
 - What is a CLI?
   - Parts of a CLI
-- Python and CLIs
-  - Wiki CLI
-  - Sentiment Analysis CLI
-  - Reddit CLI
+  - Sample CLI
 - Why write command line programs?
   - Scripts are like vampires and never die
   - You don't need to write large applications
@@ -20,6 +17,10 @@ This is an interactive talk about UNIX and Python.
   - Easier to write and collaborate on
   - Useful to automate stuff
 - UNIX Philosophy
+- Python and CLIs
+  - Wiki CLI
+  - Sentiment Analysis CLI
+  - Reddit CLI
 - Practical problem solving
   - Iterative and composable. You build them interactively
   - A complicated 4 line pipeline started as a single command that was gradually refined into something that actually solves a complicated problem

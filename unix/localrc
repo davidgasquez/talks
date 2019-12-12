@@ -15,9 +15,11 @@ matrix() {
 
 # Proper Python
 alias python=python3
+alias p=pygmentize
 
 # CLI tools
 alias wiki="python /talk/clis/wiki.py"
+alias nlp="python /talk/clis/nlp.py"
 
 # Funny things
 alias pp="curl parrot.live"
@@ -30,6 +32,15 @@ alias 3="clear && title \"UNIX  Philosophy\" && echo &&  wiki get \"unix philoso
 
 alias pushshift="curl --compressed -s 'http://stream.pushshift.io/' | grep data | cut -c 7- | jq . -c"
 alias askreddit="curl --compressed -s 'http://stream.pushshift.io/?type=comments' | grep data | cut -c 7- | jq '. | select(.subreddit==\"AskReddit\") | .body' -cr"
-alias time="curl --compressed -s 'http://stream.pushshift.io/?type=comments' | grep data | cut -c 7- | jq '. | select(.subreddit==\"AskReddit\") | .body' -cr | python clis/nlp.py |"
+alias askreddit-nlp="curl --compressed -s 'http://stream.pushshift.io/?type=comments' | grep data | cut -c 7- | jq '. | select(.subreddit==\"AskReddit\") | .body' -cr | xargs python clis/nlp.py "
 
-alias thanks="toilet -f future -k -t -F gay Thanks!"
+fin() {
+    clear;
+    toilet -f future -tk -F gay "Thanks!";
+    echo;
+    echo "Find me @davidgasquez in Twitter, Github, Linkedin, ...";
+    echo;
+    echo "Material for this talk: http://bit.ly/unix-python-pyday-grx-2019";
+    echo;
+    echo "The MIT License (MIT) 2019 David Gasquez";
+}
