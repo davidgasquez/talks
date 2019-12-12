@@ -17,6 +17,8 @@ matrix() {
 alias python=python3
 alias p=pygmentize
 
+alias cli="echo 'program command --options arguments'"
+
 # CLI tools
 alias wiki="python /talk/clis/wiki.py"
 alias nlp="python /talk/clis/nlp.py"
@@ -32,7 +34,8 @@ alias 3="clear && title \"UNIX  Philosophy\" && echo &&  wiki get \"unix philoso
 
 alias pushshift="curl --compressed -s 'http://stream.pushshift.io/' | grep data | cut -c 7- | jq . -c"
 alias askreddit="curl --compressed -s 'http://stream.pushshift.io/?type=comments' | grep data | cut -c 7- | jq '. | select(.subreddit==\"AskReddit\") | .body' -cr"
-alias askreddit-nlp="curl --compressed -s 'http://stream.pushshift.io/?type=comments' | grep data | cut -c 7- | jq '. | select(.subreddit==\"AskReddit\") | .body' -cr | xargs python clis/nlp.py "
+alias askreddit-nlp="curl --compressed -s 'http://stream.pushshift.io/?type=comments' | grep data | cut -c 7- | jq '. | select(.subreddit==\"AskReddit\") | .body' -cr | python clis/nlp.py "
+alias speedup="seq 10 | xargs -n 1 -P 10 -I NUMBER bash -c 'python3 clis/computing.py --number NUMBER'"
 
 fin() {
     clear;

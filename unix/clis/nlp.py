@@ -10,7 +10,6 @@ def run():
         while stdin.readable():
             line = stdin.readline()
             if line:
-                # Copy paste
                 doc = nlp(line.strip())
                 for ent in doc.ents:
                     print(ent.text, ent.label_)
