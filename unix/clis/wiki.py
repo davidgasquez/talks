@@ -3,7 +3,7 @@ import wikipedia
 
 
 @click.group()
-def cli():
+def wiki():
     pass
 
 
@@ -27,8 +27,8 @@ def get(query, section):
         print(result.content)
 
 
-cli.add_command(get)
-cli.add_command(summary)
+wiki.add_command(get)
+wiki.add_command(summary)
 
 if __name__ == "__main__":
-    cli()
+    wiki()
