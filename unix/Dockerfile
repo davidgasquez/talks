@@ -10,6 +10,7 @@ RUN apt-get update -y && \
 ENV LANG C.UTF-8
 ENV LANGUAGE C.UTF-8
 ENV LC_ALL C.UTF-8
+ENV TERM xterm-256color
 
 # Install Python packages
 RUN pip3 install -U pip
@@ -18,13 +19,16 @@ RUN pip install click wikipedia spacy pygments
 RUN python3 -m spacy download en_core_web_sm
 
 # Add local user
-RUN adduser --disabled-password --gecos '' david
+RUN adduser --disabled-password --gecos '' local
 
 # Copy configuration files
-COPY localrc /home/david/.localrc
-RUN echo 'source "/home/david/.localrc"' >> /home/david/.bashrc
+COPY localrc /home/local/.localrc
+RUN echo 'source "/home/local/.localrc"' >> /home/local/.bashrc
 
-USER david
+USER local
+
+COPY clis/ /talk/clis
+COPY scripts/ /talk/scripts
 
 # Set working directory
 WORKDIR /talk

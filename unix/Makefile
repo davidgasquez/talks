@@ -1,4 +1,4 @@
-IMAGE_NAME := davidgasquez/unixtalk:latest
+IMAGE_NAME := davidgasquez/unix-talk:latest
 
 .PHONY: build
 build:
@@ -8,6 +8,6 @@ build:
 talk: build
 	@docker run -ti --rm -v $(PWD):/talk $(IMAGE_NAME) bash -c 'TERM=xterm-256color /bin/bash'
 
-.PHONY: version
-version:
-	docker run --rm -it $(IMAGE_NAME) dbt --version
+.PHONY: build
+push: build
+	@docker push $(IMAGE_NAME)

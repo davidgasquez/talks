@@ -8,7 +8,9 @@ title () {
     figlet -tk -f big "$1"
 }
 
-# Matrix effect
+# Funny things
+alias party="curl parrot.live"
+alias weather="curl -s wttr.in"
 matrix() {
     echo -e "\e[1;40m" ; clear ; while :; do echo $LINES $COLUMNS $(( $RANDOM % $COLUMNS)) $(( $RANDOM % 72 )) ;sleep 0.05; done|gawk '{ letters="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%^&*()"; c=$4; letter=substr(letters,c,1);a[$3]=0;for (x in a) {o=a[x];a[x]=a[x]+1; printf "\033[%s;%sH\033[2;32m%s",o,x,letter; printf "\033[%s;%sH\033[1;37m%s\033[0;0H",a[x],x,letter;if (a[x] >= $1) { a[x]=0; } }}'
 }
@@ -23,9 +25,6 @@ alias cli="echo 'program command --options arguments'"
 alias wiki="python /talk/clis/wiki.py"
 alias nlp="python /talk/clis/nlp.py"
 
-# Funny things
-alias pp="curl parrot.live"
-alias weather="curl -s wttr.in"
 
 # Create titles for the talk
 alias 1="clear && title \"UNIX  &  PYTHON\""
@@ -35,15 +34,13 @@ alias 3="clear && title \"UNIX  Philosophy\" && echo &&  wiki get \"unix philoso
 alias pushshift="curl --compressed -s 'http://stream.pushshift.io/' | grep data | cut -c 7- | jq . -c"
 alias askreddit="curl --compressed -s 'http://stream.pushshift.io/?type=comments' | grep data | cut -c 7- | jq '. | select(.subreddit==\"AskReddit\") | .body' -cr"
 alias askreddit-nlp="curl --compressed -s 'http://stream.pushshift.io/?type=comments' | grep data | cut -c 7- | jq '. | select(.subreddit==\"AskReddit\") | .body' -cr | python clis/nlp.py "
-alias speedup="seq 10 | xargs -n 1 -P 10 -I NUMBER bash -c 'python3 clis/computing.py --number NUMBER'"
+alias speedup="seq 10 | xargs -n 1 -P 10 -I NUMBER bash -c 'python3 clis/square.py --number NUMBER'"
 
-fin() {
+thanks() {
     clear;
     toilet -f future -tk -F gay "Thanks!";
     echo;
     echo "Find me @davidgasquez in Twitter, Github, Linkedin, ...";
-    echo;
-    echo "Material for this talk: http://bit.ly/unix-python-pyday-grx-2019";
     echo;
     echo "The MIT License (MIT) 2019 David Gasquez";
 }
