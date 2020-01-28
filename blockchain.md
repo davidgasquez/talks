@@ -6,6 +6,8 @@
 1. Consensus
 1. What is Money
 1. Fat Protocols
+1. Decentralization. Money, identity, data, social media.
+1. Open Data. Without that you don't have permissionless innovation.
 1. Protocol Funding
 1. Forks work like genetic mutations in the nature
 1. The Future
