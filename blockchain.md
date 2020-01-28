@@ -9,6 +9,8 @@
 1. Decentralization. Money, identity, data, social media.
 1. Open Data. Without that you don't have permissionless innovation.
 1. Protocol Funding
+1. Governance
+1. Open Source
 1. Forks work like genetic mutations in the nature
 1. The Future
     - Open Source projects will have a protocol and incentive the economy.
