@@ -1,18 +1,18 @@
 # Practical Data Science
 
-Failures and learnings from my time in the data world.
+Learnings from working with data in the real world.
 
 ## Motivation
 
-People talk about their shiny new algorithm or how much a new set of parameters improved the accuracy of a complex Neural Network.
-I'd say that's the easy part about working with data.
-This talk focus on the rest of the work needed to tune the parameters.
+We focus too much on the 5% of our work. Shiny new algorithm or the new set of parameters that improved the accuracy of a Recurrent Neural Network.
+In an ideal world, that the work of a Data Scientist. In the real world, that's the final day of work.
+Let's dig into the common pitfalls and what's needed to tune these parameters.
 
 ## Outline
 
 ### Warning
 
-- The talk is biased from my experience.
+- The talk is biased. Your milleage my vary.
 - Theory != Practice. Tips shared here won't be easy to implement!
 - The data landscape is evolving really fast.
 
@@ -20,9 +20,8 @@ This talk focus on the rest of the work needed to tune the parameters.
 
 - Data talks are mostly algorithm focused
 - Working with data is tricky
-- I made some mistakes I want to share
 
-#### Kaggle Issue
+### Kaggle Issue
 
 - Get the CSV (web, database, peer, ...)
 - Try to start using it
@@ -36,7 +35,7 @@ This talk focus on the rest of the work needed to tune the parameters.
 - Has applications in every field, from web A/B Testing to ML in Biology
 - In a SaaS company, the only way to tell how you're doing is looking at the data. In the phisical world you can see users buying or not coming to your store. Data is the main input for internet companies.
 
-### Data Applications
+#### Data Applications
 
 - Answering questions
 - A/B Testing
