@@ -4,9 +4,9 @@ Learnings from working with data in the real world.
 
 ## Motivation
 
-We focus too much on the 5% of our work. Shiny new algorithm or the new set of parameters that improved the accuracy of a Recurrent Neural Network.
-In an ideal world, that the work of a Data Scientist. In the real world, that's the final day of work.
-Let's dig into the common pitfalls and what's needed to tune these parameters.
+We focus too much on the 5% of the Data Science work. That is, the shiny algorithm or the new set of parameters that improved the accuracy of a Recurrent Neural Network by 0.05.
+In an ideal world, that's most of the work of a Data Scientist. In the real world, that's a couple of hours.
+Let's dig into the common pitfalls and what's needed to go from nothing to tuning model parameters.
 
 ## Outline
 
