@@ -44,6 +44,7 @@ Let's dig into the common pitfalls and what's needed to go from nothing to tunin
 ### My Mistakes
 
 - Getting the data was easy (Kaggle CSV)
+  - Getting good data quality. The more you look into the data the more issues you spot.
 - Working with data was simple
 - Starting a project from the ground up could fix everything
 - Data was enought
@@ -71,9 +72,10 @@ Let's dig into the common pitfalls and what's needed to go from nothing to tunin
 
 ## Engineering
 
-- Tests
+- Tests (Great Expectations)
 - Explore and iterate quickly to learn unknowns unknowns
   - You should aim to build evolutionary Data Pipelines
+  - Microservice style pipelines
 - Automate. CI/CD
   - Dev environments
   - Tests
@@ -85,9 +87,11 @@ Let's dig into the common pitfalls and what's needed to go from nothing to tunin
 ### The Future
 
 - Streaming
-- Containers
-- Serverless
-- NN
+- Containers (Docker)
+- Serverless (AWS Lambda)
+- NN Comodization (Keras)
+- [Privacy Preserving AI](https://youtu.be/4zrU54VIK6k)
+- Open Data (Qri)
 
 ## Quotes
 
