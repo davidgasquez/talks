@@ -1,4 +1,4 @@
-# Practical Data Science
+# Practical Data Science or Hithhiker Guide to Data
 
 Learnings from working with data in the real world.
 
@@ -63,7 +63,9 @@ Let's dig into the common pitfalls and what's needed to go from nothing to tunin
 - Reproducibility
   - Required for the scientific method
   - Required to keep you sane
-- Keep a log. Everything is an event and events dont change!
+  - Docker
+  - Makefile
+- Keep a log. Everything is an event and events don't change!
   - Version the data. VCS
 - Figure out your hypothesis. Have a baseline metric for everything you want to affect
 - Keep your data tidy
@@ -72,12 +74,13 @@ Let's dig into the common pitfalls and what's needed to go from nothing to tunin
 
 ## Engineering
 
+- Principles of data pipelines.
 - Tests (Great Expectations)
 - Explore and iterate quickly to learn unknowns unknowns
   - You should aim to build evolutionary Data Pipelines
   - Microservice style pipelines
 - Automate. CI/CD
-  - Dev environments
+  - Dev environments. Docker.
   - Tests
 - Keep consistent conventions
   - Linters
